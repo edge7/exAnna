@@ -19,6 +19,8 @@ named them 'UNKNOWN1' and 'UNKNOWN2'.
 # Other considerations
 When saving the processed dataframe I did not drop the old columns, but drop columns is as easy
 as calling the drop method.
+Some of the requirements are covered by Spark itself, passing the right schema and the right separator as well 
+as the right NULL value.
 
 # How to run
 To run just call the main file passing the bucket where the files are stored as argument:
